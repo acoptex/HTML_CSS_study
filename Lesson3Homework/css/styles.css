@@ -1,0 +1,118 @@
+/*-------------------- Fonts in use ---------------*/
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans.ttf');
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url('../fonts/Exo.otf');
+}
+
+@font-face {
+    font-family: "Huntsman";
+    src: url('../fonts/Huntsman.otf');
+}
+
+/*-------------------- General --------------------*/
+
+body,
+html {
+    background-color: #f8f8f8;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+h1,
+h5 {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+/*-------------Header-----------------------------*/
+.menu li { 
+    font-size: 18px;
+    font-weight: 800;
+    list-style-type: none;
+    font-family: "Exo", sans-serif;   
+}
+.menu li a {
+    color: darkgrey;    
+}
+/*-----------Страница Товар каталога--------------*/
+.shortdescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.fulldescription {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.list {
+    list-style-image: url(../img/bullet.png);
+}
+.list li { 
+    color: #484343;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+    font-style: oblique;    
+}
+img {
+    outline: 2px solid grey;
+}
+/*-----------------Contacts-----------------*/
+form input {
+    display: block;
+    width: 250px;
+    height: 20px;
+    padding-left: 5px;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+form input[value="Отправить"] {
+    margin: 0;
+    width: 100px;
+}
+
+form input[value="Отмена"] {
+    margin-left: 120px;
+    width: 100px;
+}
+
+.input {
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/*------------------Footer--------------*/
+footer {
+    text-align: center;
+}
