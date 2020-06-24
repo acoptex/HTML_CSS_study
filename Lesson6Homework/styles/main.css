@@ -1,0 +1,268 @@
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*main page*/
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(../images/slider-img.jpg);
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    border-bottom: 3px solid #8c8c8c;
+}
+.menu-link:active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+.clearfix:after {
+    content="";
+    display: table;
+    clear: both;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.slider_text {
+    margin-top: 283px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 3.6px;
+}
+.button:hover {
+    background-color:#212121;
+    color:white;
+}
+.button:hover::after {
+    content: " >";
+    color:white;
+}
+.button:active {
+    box-shadow: none;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin: 0;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.hot-deal-slider {
+    height: 800px;
+    background-image: url(../images/slider.jpg);
+    position: relative;
+}
+.hot_deal_text {
+    padding-top:287px;
+}
+.hot-deal {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-bottom:10px;
+}
+
+.hot-deal-slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase; 
+    
+}
+
+.hot-deal-slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.picture-block {
+    height: 570px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: inline-block;
+    position: relative;
+}
+
+.pb-list {
+    float: left;
+    list-style-type: none;
+}
+
+.pb-exclusive {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    position: absolute;
+    padding-top: 186px;
+    padding-left: 31px;
+}
+
+.pb-h4 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    padding-top: 217px;
+    padding-left: 32px;
+}
+
+.pb-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    padding-top: 269px;
+    padding-left: 30px;
+    width: 332px;
+}
+
+.pb-button {}
+
+.find {
+    height: 516px;
+    background-image: url(../images/back-img.jpg);
+}
+
+.find-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.find-mobile {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-top: 125px;
+}
+
+.find-content {
+    padding-top: 10px;
+    padding-bottom: 33px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.footer {
+    height: 384px;
+    background-color: #f7f7f7;
+}
